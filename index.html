@@ -9,7 +9,7 @@ Journal HomePage
 </head>
 <body>
 <div id="head">
-		<h1 class="header">Journal</h1>
+		<a href="index.html" style="text-decoration: none"><h1 class="header">Journal</h1></a>
 	<h4  class="header" style="text-align: left"> Personal Journal Entries</h4>
 
 </div>
@@ -17,7 +17,7 @@ Journal HomePage
 		<div class="journal">
 			<h3>Journal Entry</h3>
 			<form action="action_page.php">
-				<textarea name="message" style="width:75%; height: 300px;">The cat played with the mouse</textarea>
+				<textarea name="message" value="entrydata" style="width:75%; height: 300px; overflow: auto;" placeholder="Today..."></textarea>
 				<br>
 				<input type="submit">
 			</form>

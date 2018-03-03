@@ -43,6 +43,10 @@ overflow: visible;
 	margin-top: -20px;
 }
 
+.centercolumn h4 {
+	border: solid black 5px;
+}
+
 
 .weekcontainer  {
 	display: block;
